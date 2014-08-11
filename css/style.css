@@ -1,0 +1,170 @@
+/* 	STYLE.CSS:	One stylesheet to rule them all.		selector { property:value }*//* ----- =header ----- */
+
+
+header {
+	background-color: #fff;
+	height: 85px;
+	background: -prefix-linear-gradient(bottom, #ffffff 0%, #ffffff 64%, #efede8 100%));
+	background: linear-gradient(to top, #ffffff 0%, #ffffff 64%, #efede8 100%);
+	box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+	width: 100%;
+	border-top: 4px solid #E28C05;
+	position: fixed;
+	z-index:100;
+}
+#header_logo {
+	position: relative;
+	width: 165px;
+	top: 10px;
+	animation: fadeInLogo 2s;
+	-webkit-animation: fadeInLogo 2s;
+}
+@keyframes fadeInLogo {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+@-webkit-keyframes fadeInLogo {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}/* ----- =structure ----- */
+.page {
+	padding-top: 40px;
+}
+.fixed {
+	position: fixed;
+	width: 100%;
+}
+.hero {
+	background: -prefix-linear-gradient(bottom, #E28C05 0%, #d58405 64%, #E28C05 100%));
+	background: linear-gradient(to top, #E28C05 0%, #d58405 64%, #E28C05 100%);
+	height: 250px;
+	padding-top: 125px;
+	height: 350px;
+}
+.hero-student {
+	background: -prefix-linear-gradient(bottom, #E28C05 0%, #d58405 64%, #E28C05 100%));
+	background: linear-gradient(to top, #E28C05 0%, #d58405 64%, #E28C05 100%);
+	height: 250px;
+	padding-top: 100px;
+	height: 115px;
+}
+.nav-studentlist {
+	margin-top: 22px;
+}
+.nav-studentlist img {
+	float: left;
+	width: 77px;
+	margin-right: 10px;
+	margin-bottom: 11px;
+}
+.studentlist img {
+	margin-bottom: 15px;
+}/* ----- =tooltip ----- */
+.tooltip.top .tooltip-inner {
+	background-color: #E28C05;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	opacity: 1;
+}
+.tooltip.top .tooltip-arrow {
+	border-top-color: #E28C05;
+}/* ----- =buttons ----- */
+.btn-default {
+	color: #E28C05;
+	background-color: #fff;
+	border-color: #E28C05;
+	box-shadow: none;
+	outline: 0px !important;
+	-webkit-appearance: none;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	color: #fff;
+	background-color: #E28C05;
+	border-color: #E28C05;
+	box-shadow: none;
+	outline: 0px !important;
+	-webkit-appearance: none;
+}/* ----- =type ----- */
+body {
+	font-size: 16px;
+}
+h1, h2, h2 {
+	font-family: 'PT Sans', sans-serif;
+	color: #ABA387;
+}
+h2 a, h2 a:hover {
+	color: #E28C05;
+}
+h4 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.hero h1 {
+	font-size: 45px;
+	color: #171717;
+	background-color: #fff;
+	padding: 20px;
+	display: inline-block;
+	letter-spacing: 0.15555555555555556em;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+}
+.hero h2 {
+	display: inline;
+	font-size: 16px;
+	color: #171717;
+	background-color: #fff;
+	padding: 10px;
+	letter-spacing: 0.1556em;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+	font-weight: 700;
+}
+.fa {
+	color: #ABA387;
+	padding-right: 10px;
+}
+.student-detail h2 {
+	text-align: center;
+	color: #ABA387;
+}
+.student-detail h4 a {
+	color: #E28C05;
+}
+.student-detail {
+	margin-top: 20px;
+}
+.mybreadcrumb a {
+	float: right;
+	margin: -10px;
+	color: #fff;
+}
+.mybreadcrumb .fa {
+	color: #fff;
+}
+.icons {
+	text-align: center
+}
+.icons li {
+	display: inline-block;
+}
+
+
+.anchor{
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -100px; /*same height as header*/
+}
+
+.social-icons {
+  margin-top: 30px;	
+}
